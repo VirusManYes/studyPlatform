@@ -1,0 +1,21 @@
+package controller;
+
+import entity.User;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import service.UserService;
+
+@Controller
+public class RegistrationController {
+
+    @Autowired
+    private UserService userService;
+
+    @GetMapping("/registration")
+    public String registration(Model model){
+        model.addAttribute(new User());
+        return "Вход";
+    }
+}

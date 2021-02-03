@@ -1,0 +1,70 @@
+body div{
+    border-style: solid;
+}
+html{
+    background: url("study.jpg");
+    min-height: 100%;
+    background-size: cover;
+}
+#header{
+   
+    height: 15vh;  
+}
+
+#slideBar{
+   
+    height: 35vh; 
+}
+#content{
+   
+    height: 40vh; 
+}
+#footer{
+     
+    height: 10vh; 
+}
+
+#autorization{
+    background-color: green; 
+    height: 9vh; 
+    width: 25%;
+    margin-left: 70%;
+}
+
+#enter{
+    background-color: gray; 
+    height: 5vh; 
+    width: 17vh;
+    margin-top: 3%;
+    margin-left: 10%;
+    display: inline-block;
+}    
+#enter:hover{
+    background-color: blueviolet; 
+}       
+
+#register{
+    background-color: gray; 
+    height: 5vh; 
+    width: 17vh;
+    display: inline-block;
+    margin-left: 10%;  
+}
+#register:hover{
+    background-color: blueviolet;  
+}
+#enterBar{
+    height: 15%;
+    width: 13%;
+    background-color: red;
+    padding-left: 2%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+
+
